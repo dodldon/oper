@@ -1,8 +1,8 @@
-
-package pag;
+    
+package pag1;
 
 /**
- * Операции,арифметические действия с дествительными числами
+ * Операции,арифметические действия с действительными числами
  */
 public class Os_d {
     public static void main(String args[]){
