@@ -1,14 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package pag1;
 
 /**
  *
- * @author mms
+ *Операции, инкримент, декримент<br>Операция инкремента увеличивает значение операнда на единицу, а операция
+декремента уменьшает значение операнда на единицу<b>постфиксный следует за операндом (a++)<br>префиксной операция предшествует операнду(++a)
+ * 
  */
 public class Os_ingr {
+    public static void main(String args[]){
+        int a=1;
+        int b=2;
+        int c=++a;
+        //int d=a++;
+        System.out.println("a="+a);
+    }
     
 }
