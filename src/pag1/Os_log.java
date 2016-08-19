@@ -5,8 +5,7 @@ package pag1;
  */
 public class Os_log {
 
-    public static void main(String args[]) {
-        
+    public static void main(String args[]) {        
         boolean a = true, b = false, c, d, e, i, f, g, x, y, z, s, k,t;
         i = !a;//НЕ
         c = a & b; // И
@@ -21,7 +20,21 @@ public class Os_log {
         a ^= b; // ИЛИ-НЕ с присваиванием
         s = a?b:a; //тернарный оператор (if-then-else)
         t=a=b;
-        System.out.println(s);
+        System.out.println("a = true, b = false ");
+        System.out.println();
+        System.out.println("!a "+i);
+        System.out.println("a & b "+c);
+          System.out.println("a | b "+d);
+            System.out.println("a ^ b "+e);
+              System.out.println("a == b "+f);
+                System.out.println("a != b "+g);
+                  System.out.println("a || b "+k);
+                    System.out.println("a && b "+x);
+                      System.out.println("a |= a "+a);
+                        System.out.println("b &= b "+b);
+                          System.out.println("a ^= b "+a);
+                            System.out.println("a?b:a "+s);
+                              //System.out.println("a & b "+c);
 
     }
 
